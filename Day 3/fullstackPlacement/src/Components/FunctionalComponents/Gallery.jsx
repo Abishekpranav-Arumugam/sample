@@ -19,9 +19,9 @@ const Gallery=()=>{
          
          <button onMouseOver={()=>{setCount(count-1)}}>Decrement</button>
          
-         <button onDoubleClick={()=>{setCount(count+1)}}>Inrement</button>
+         <button onClickCapture={()=>{setCount(count+1)}}>Inrement</button>
          
-         <button onClick={()=>{setCount(0)}}>Reset</button>
+         <button onDoubleClick={()=>{setCount(0)}}>Reset</button>
          </section>
     )
 
